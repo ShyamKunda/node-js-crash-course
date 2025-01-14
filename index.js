@@ -1,3 +1,3 @@
-const {generateRandomNumber} = require('./utils');
-
-console.log(generateRandomNumber());
+import getPosts, {getPostsLength} from "./postController.js";
+console.log(getPosts());
+console.log(getPostsLength());
