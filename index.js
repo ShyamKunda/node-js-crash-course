@@ -1,3 +1,3 @@
-import getPosts, {getPostsLength} from "./postController.js";
-console.log(getPosts());
-console.log(getPostsLength());
+import getUsers, {getUsersLength} from "./usersController.js";
+console.log(getUsers());
+console.log(getUsersLength());
